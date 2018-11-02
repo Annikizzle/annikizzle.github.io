@@ -1,0 +1,260 @@
+.aboutMeWrapper {
+    width: 960px;
+    padding: 10px;
+    background-color: #fff;
+    float: left;
+}
+
+hr {
+  width: 960px;
+}
+
+.aboutMeHeader {
+    font-size: 30px;
+    font-weight: bolder;
+    color: #4aaaa5;
+    margin-left: 30px;
+    margin-bottom: 40px;
+}
+
+.content {
+  width: 960px;
+  height: 1000px;
+  padding: 0;
+  margin: 55px auto 80px auto;
+}
+
+body {
+    background-image: url("../images/tree_bark.png");
+    background-repeat: repeat;
+    padding: 0;
+    margin: 0;
+    position: relative;
+}
+
+.headerFont {
+    font-family: 'Georgia', Times, "Times New Roman", serif;
+}
+
+.navbar ul {
+    list-style: none;
+    float: right;
+}
+
+.navbar li {
+    display: inline-block;
+    text-align: center;
+    line-height: 64px;
+    color: #777 !important;
+}
+
+.navbar li:not(:first-child):before {
+    content: "|";
+    padding: 10px;
+}
+
+.navbar {
+    display: block;
+    text-decoration: none;
+    background-color: #fff;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    padding: 0;
+    clear: both;
+    height: 60px;
+    margin-bottom: 20px;
+    border-bottom: #ccc solid 5px;
+}
+
+.navMenu {
+  margin-right: 70px;
+}
+
+.navMenu a:link {
+    color: #777;
+}
+
+.navMenu a:visited,
+.navMenu a:link,
+.navMenu a:active {
+  text-decoration: none;
+  color: #777;
+}
+
+.navMenu a:hover {
+    color: #4aaaa5;
+}
+
+.connectLinks li {
+    display: inline-block;
+    margin: 0 2px;
+}
+
+.connectLinksHeader {
+    font-weight: bolder;
+    color: #4aaaa5;
+    font-size: 24px;
+    margin-bottom: 10px;
+    margin-top: 15px;
+}
+
+.aboutMePhoto {
+    float: left;
+    margin: 20px;
+}
+
+.nameHeader span {
+    line-height: 60px;
+    background-color: #4aaaa5;
+    padding: 15px;
+    color: #fff;
+    font-size: 28px;
+    font-weight: bolder;
+}
+
+.nameHeader {
+    float: left;
+    height: auto;
+    margin-left: 70px;
+}
+
+.navMenu {
+    font-size: 17px;
+}
+
+.aboutText {
+    padding: 10px;
+    line-height: 120%;
+}
+
+.footer {
+    clear: both;
+    height: 65px;
+    background-color: #666;
+    position: fixed;
+    margin-top: 50px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    border-top: solid 14px #4aaaa5;
+}
+
+.footerText {
+    line-height: 65px;
+    color: #fff;
+}
+
+.contactWrapper {
+    width: 960px; 
+    background-color: #fff;
+    height: 600px;
+    padding: 10px;
+    float: left;
+}
+
+.contactHeader {
+    font-size: 30px;
+    line-height: 60px;
+    font-weight: bolder;
+    color: #4aaaa5;
+    margin-left: 20px;
+}
+
+.formElement {
+    margin-top: 20px;
+    padding: 4px;
+}
+
+.formModule {
+    margin: 0 auto;
+    width: 400px;
+    padding: 2px;
+    float: left;
+}
+
+input, textarea {
+    font: 16px #ccc;
+    width: 900px;
+    height: 200px;
+
+}
+
+label {
+    display: inline-block;
+    text-align: left;
+    width: 90px;
+    margin-bottom: 13px;
+}
+
+#mail, #nameForm {
+    height: 20px;
+}
+
+#submitButton {
+    padding: 14px;
+    background-color: #4aaaa5;
+    color: #fff;
+    border-style: none;
+    font-weight: bold;
+}
+
+
+.portfolioWrapper {
+  width: 960px;
+  background-color: #fff;
+  height: auto;
+  padding: 10px;
+  overflow: auto;
+
+}
+
+.portRow {
+  left: 0;
+  display: inline-block;
+  margin: 15px 0;
+}
+
+.portElement {
+  width: 240px;
+  height: 180px;
+  border: solid #000 1px;
+  display: inline-block;
+  padding: 0;
+  background-image: url('http://placehold.it/240x180');
+  position: relative;
+  font-size: 19px;
+  font-style: bold;
+}
+
+.portfolioHeader {
+  font-size: 30px;
+  font-weight: bolder;
+  color: #4aaaa5;
+  margin-bottom: 10px;
+  margin-left: 25px;
+  padding: 14px;
+}
+
+.portItemWrapper {
+  float: left;
+  width: 960px;
+  margin: 0 30px;
+}
+
+.portItemText {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  background: rgba(74, 170, 165, 0.7);
+  color: #fff;
+  height: auto;
+  line-height: 40px;
+  top: 100px;
+  text-align: center;
+}
