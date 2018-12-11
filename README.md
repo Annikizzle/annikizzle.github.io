@@ -1,3 +1,0 @@
-# codedemo
-# codedemo
-# attempt2
